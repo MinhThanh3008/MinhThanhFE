@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.box {
+    width: 1000px;
+    height: 680px;
+    background-color: #D8A8A7;
+    display: flex;
+    margin: auto;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+
+.container {
+    width: 900px;
+    height: 570px;
+    background-color: #fff;
+    display: flex;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.shoes-infor {
+    width: 450px;
+    height: 570px;
+}
+
+.shoes-form {
+    width: 450px;
+    height: 570px;
+}
+
+.infor-image {
+    text-align: center;
+
+}
+
+.infor-image__img {
+    width: 300px;
+    height: 300px;
+}
+
+.infor-dot {
+    text-align: center;
+}
+
+.infor-dot__img {
+    font-size: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: #D9DDDC;
+}
+
+.infor-dot__img2 {
+    font-size: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: #6153b4;
+}
+
+.infor-body {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.infor-body__text {
+    font-size: 26px;
+    color: #484848;
+    font-weight: 600;
+}
+
+.infor-body__desc {
+    margin-top: 8px;
+    color: #a797af;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.infor-body__cost {
+    margin-top: 28px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.shoes-form {
+    background-color: #484848;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+.shoes-form__setting {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    height: 28px;
+    width: 44px;
+    background-color: #3a3939;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.shoes-form__setting:hover {
+    background-color: #424240;
+    cursor: pointer;
+}
+
+.setting-icon {
+    margin-right: 4px;
+    font-size: 14px;
+    color: #5b605f;
+}
+
+.setting-down-icon {
+    font-size: 14px;
+    color: #5b605f;
+}
+
+.shoes-from__heading {
+    display: flex;
+    margin: 80px 52px;
+}
+
+.shoes-card__img {
+    width: 50px;
+    border-radius: 8px;
+}
+
+.shoes-form__visa {
+    color: #fff;
+    font-size: 32px;
+    margin-left: 24px;
+}
+
+.shoes-form__signin {
+    margin-top: -12px;
+    margin-left: 52px;
+}
+
+.form-sighin__input {
+    margin-top: 14px;
+}
+
+.input-name {
+    color: #8b8d8c;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.sighin-input {
+    border: none;
+    background-color: #484848;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    font-size: 24px;
+}
+
+.form-sighin__input-date-cvc {
+    margin-top: 14px;
+    display: flex;
+}
+
+.input-date {
+
+}
+
+.sighin-input1 {
+    border: none;
+    background-color: #484848;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    font-size: 24px;
+    width: 62%;
+}
+
+.input-cvc {
+
+}
+
+.shoes-form__purchase {
+    margin: 32px 52px;
+}
+
+.shoes-form-btn {
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #6153b4;
+    border: none;
+    width: 346px;
+    height: 50px;
+    border-radius: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.shoes-form-btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.shoes-form-btn__next {
+    position: absolute;
+    right: 20px;
+}
